@@ -27,3 +27,9 @@ palavra2 = 'TESTE'
 #Colocar a string como tudo minúsculo
 
 print ('Colocando o texto em letra minúscula: ', palavra2.lower())
+
+#Exercício: Fazer uma senha, sendo ela formada pela quantidade de vogais do email criado, ou seja, a quantidade de letra a + e + i + o + u
+
+senha_criada = 'a' + str(email.count('a')) + 'e' + str(email.count('e')) + 'i' + str(email.count('i')) + 'o' + str(email.count('o')) + 'u' + str(email.count('u'))
+
+print('Sua senha criada é: ', senha_criada)
