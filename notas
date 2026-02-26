@@ -1,1 +1,32 @@
-:
+#Quando há o problema de espaços sobrando, esse é o comando necessário para tirar e arrumar
+
+var_str_problematica = '                            PROBLEMA                       '
+var_sem_espaco = var_str_problematica.strip()
+
+Comandos
+
+#github, salvar projeto
+git add .
+git commit -m "commit"
+git push origin main
+usuário: fenixgghs190
+senha: miro
+
+ls: lista o diretorio
+cd: pasta home
+cd x: pasta escolhida
+pwd: mostra o caminho atual
+mkdir: cria uma pasta
+rm _rf: apaga a pasta e tudo de dentro dela
+vim: cria arquivo e edita vim
+
+#dentro do vim, editor
+
+i: editar
+:wq : sai do editor e salva
+:w : salva
+:!python x.py : executa o arquivo
+
+#comandos py
+variavel.replace('antigo', 'novo') - altera a string 
+
