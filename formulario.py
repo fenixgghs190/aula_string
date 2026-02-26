@@ -9,7 +9,7 @@ universidade = input('Digite sua universidade: ')
 
 #Construir o endereço de e-mail, contendo nome, sobrenome e universidade e apresentar ao usuário
 
-email = nome.lower() + sobrenome.lower() + '@' + universidade.lower() + '.br'
+email = nome.lower() + '.' + sobrenome.lower() + '@' + universidade.lower() + '.br'
 print('Seu email institucional é:', email)
 
 #Construir a senha, contendo as letras "A, E, I, O, U", e na frente das letras contendo a quantidade de vogais existentes no e-mail e apresentar a senha ao usuário
